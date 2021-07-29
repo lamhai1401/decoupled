@@ -9,4 +9,4 @@ python manage.py makemigrations
 
 python manage.py migrate
 
-python manage.py runserver
+uvicorn decoupled_dj.asgi:application
